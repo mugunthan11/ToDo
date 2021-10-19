@@ -73,6 +73,9 @@ function App() {
               style={{ marginRight: 10, marginLeft: 10 }}
             ></input>
             <button onClick={addTask}>Add Task</button>
+          </div> 
+          <div style={{position: 'relative',width: 100, height: 100, backgroundColor: 'red'}}>
+            <p style={{position: 'absolute', bottom: 0}}>Hii</p>
           </div>
         </div>
       </div>
